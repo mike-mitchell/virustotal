@@ -1,0 +1,6 @@
+ref: virustotal
+name: Virus Total IP Scan
+descritpion: Run a VirsuTotal IP Scan
+version: 0.1.0
+author: Mike
+email: mikemitchell523@gmail.com

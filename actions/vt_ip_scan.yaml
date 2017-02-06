@@ -1,0 +1,17 @@
+name: vt_ip_scan
+pack: virustotal
+runner_type: "python-script"
+description: Run VT IP Scan
+entry_point: vt.py
+parameters:
+    apikey:
+	type: string
+	description: APIKEY
+	required: true
+	position: 1
+    IP:
+	type: string
+	description: IP to Scan
+	required: true
+	position: 2
+
