@@ -9,7 +9,7 @@ parameters:
         description: APIKEY
         required: true
         position: 1
-    IP:
+    ip:
         type: string
         description: IP to Scan
         required: true
