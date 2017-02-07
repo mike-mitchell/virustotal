@@ -1,0 +1,21 @@
+name: vt_file
+pack: virustotal
+runner_type: "python-script"
+description: Run VT File Scan
+entry_point: vt_file.py
+parameters:
+    apikey:
+        type: string
+        description: APIKEY
+        required: true
+        position: 1
+    file_name:
+        type: string
+        description: Name of File
+        required: true
+        position: 2
+    file_content:
+        type: string
+        description: File Content
+        required: true
+        position: 3
